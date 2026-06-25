@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Personal portfolio of Zakky Aulia Aldrin, an Information Systems student at Andalas University focused on web development, enterprise systems, and digital workflow automation."
+    />
+    <meta name="author" content="Zakky Aulia Aldrin" />
+    <meta
+      name="keywords"
+      content="Zakky Aulia Aldrin, portfolio, web developer, frontend, full-stack, enterprise systems, automation, Andalas University, Indonesia"
+    />
+    <meta name="theme-color" content="#0d0b14" />
+    <link rel="canonical" href="https://zakky.vercel.app/" />
+
+    <!-- Open Graph / social -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Zakky Aulia Aldrin | Personal Portfolio" />
+    <meta
+      property="og:description"
+      content="Information Systems student at Andalas University focused on web development, enterprise systems, and digital workflow automation."
+    />
+    <meta property="og:image" content="assets/zakky-portrait-trimmed.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Zakky Aulia Aldrin | Personal Portfolio" />
+    <meta
+      name="twitter:description"
+      content="Information Systems student at Andalas University focused on web development, enterprise systems, and digital workflow automation."
+    />
+
+    <title>Zakky Aulia Aldrin | Personal Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Reveal-state guard: only hide pre-animation elements when JS + motion are available -->
+    <script>
+      document.documentElement.classList.add("has-js");
+    </script>
+
+    <!-- Structured data for SEO -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Zakky Aulia Aldrin",
+        "jobTitle": "Information Systems Student & Web Developer",
+        "description": "Information Systems student at Andalas University focused on web development, enterprise systems, and digital workflow automation.",
+        "email": "mailto:zakkyaulialdrin@gmail.com",
+        "telephone": "+6287869030753",
+        "url": "https://zakky.vercel.app/",
+        "alumniOf": "Andalas University",
+        "sameAs": [
+          "https://www.linkedin.com/in/zakkyaulia",
+          "https://github.com/Zakkyaulia",
+          "https://www.instagram.com/zakkyaulia__/"
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <canvas class="bg-canvas" aria-hidden="true"></canvas>
+    <div class="scroll-progress" aria-hidden="true"><span></span></div>
+
+    <header class="nav-wrap">
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a class="nav-brand" href="#about" aria-label="Back to top">ZAA<span>.</span></a>
+        <span class="nav-links">
+          <a class="nav-link is-active" href="#about" data-nav="about">About</a>
+          <a class="nav-link" href="#experience" data-nav="experience">Work</a>
+          <a class="nav-link" href="#projects" data-nav="projects">Projects</a>
+          <a class="nav-link" href="#skills" data-nav="skills">Skills</a>
+          <a class="nav-link" href="#education" data-nav="education">Edu</a>
+        </span>
+        <a class="nav-cta" href="#contact" data-nav="contact" data-magnetic>
+          Let's talk
+          <i data-lucide="arrow-up-right" aria-hidden="true"></i>
+        </a>
+      </nav>
+    </header>
+
+    <main>
+      <!-- ───────────────────────── HERO ───────────────────────── -->
+      <section class="section section-hero" id="about" aria-labelledby="about-title">
+        <div class="container hero-layout">
+          <div class="hero-content">
+            <p class="eyebrow" data-hero="1">
+              <span class="dot"></span>
+              <span id="typewriter">Hi</span><span class="cursor" aria-hidden="true"></span>
+              <span class="eyebrow-sep">/</span> Information Systems · Andalas University
+            </p>
+
+            <h1 id="about-title" data-hero="2">
+              <span class="line">I'M ZAKKY</span>
+              <span class="line">AULIA <span class="outline">ALDRIN</span></span>
+            </h1>
+
+            <p class="hero-rotor" data-hero="3" aria-label="Focus areas">
+              <span class="rotor-static">I build</span>
+              <span class="rotor" data-words="web systems,enterprise solutions,workflow automation">web systems</span>
+            </p>
+
+            <p class="hero-copy" data-hero="4">
+              Third-year Information Systems student blending full-stack development,
+              data management, and automation — turning rough ideas into technology
+              people can actually use, across academic, government, and campus projects.
+            </p>
+
+            <div class="hero-actions" data-hero="5" aria-label="Primary actions">
+              <a class="button button-primary" href="#projects" data-magnetic>
+                <span>View Projects</span>
+                <i data-lucide="arrow-up-right" aria-hidden="true"></i>
+              </a>
+              <a
+                class="button button-secondary"
+                href="resume-zakkyAA.pdf"
+                download="Zakky_Aulia_Aldrin_Resume.pdf"
+                type="application/pdf"
+                data-magnetic
+              >
+                <span>Download CV</span>
+                <i data-lucide="download" aria-hidden="true"></i>
+              </a>
+            </div>
+
+            <ul class="hero-stats" data-hero="6">
+              <li><b>3rd</b><span>Year IS Student</span></li>
+              <li><b>Full-Stack</b><span>Web &amp; Systems</span></li>
+              <li><b>Padang</b><span>Indonesia · GMT+7</span></li>
+            </ul>
+          </div>
+
+          <div class="portrait-area" data-hero="portrait" aria-label="Portrait of Zakky Aulia Aldrin">
+            <div class="portrait-blob" aria-hidden="true"></div>
+            <div class="portrait-frame">
+              <img
+                class="portrait"
+                src="assets/zakky-portrait-trimmed.png"
+                alt="Zakky Aulia Aldrin standing with folded arms"
+                width="560"
+                height="760"
+              />
+            </div>
+
+            <span class="sticker sticker-1" aria-hidden="true">Full-Stack ✦</span>
+            <span class="sticker sticker-2" aria-hidden="true">IS Student</span>
+
+            <a class="spin-badge" href="#contact" aria-label="Available for work — get in touch">
+              <svg viewBox="0 0 120 120" aria-hidden="true">
+                <defs>
+                  <path id="badgePath" d="M60,60 m-43,0 a43,43 0 1,1 86,0 a43,43 0 1,1 -86,0" />
+                </defs>
+                <text>
+                  <textPath href="#badgePath">
+                    AVAILABLE FOR WORK · OPEN TO COLLAB ·
+                  </textPath>
+                </text>
+              </svg>
+              <i data-lucide="arrow-up-right" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+
+        <a class="scroll-hint" href="#experience" data-hero="7" aria-label="Scroll to explore">
+          <i data-lucide="arrow-down" aria-hidden="true"></i>
+          <span>Scroll</span>
+        </a>
+      </section>
+
+      <!-- ───────────────────────── MARQUEE ───────────────────────── -->
+      <div class="marquee" aria-hidden="true">
+        <div class="marquee-track">
+          <span>Full-Stack Development ✦ Enterprise Systems ✦ Workflow Automation ✦ Data Management ✦ UI / UX ✦ </span>
+          <span>Full-Stack Development ✦ Enterprise Systems ✦ Workflow Automation ✦ Data Management ✦ UI / UX ✦ </span>
+        </div>
+      </div>
+
+      <!-- ───────────────────────── EXPERIENCE ───────────────────────── -->
+      <section class="section" id="experience" aria-labelledby="experience-title">
+        <div class="container content-view">
+          <div class="section-heading" data-reveal>
+            <p class="section-kicker"><span>01</span> Experience</p>
+            <h2 id="experience-title">Building digital products that create impact.</h2>
+            <p class="exp-lead">
+              A journey through software engineering, full-stack development, and
+              automation — building practical digital solutions across academia,
+              government, and industry.
+            </p>
+          </div>
+
+          <div class="timeline">
+            <span class="timeline-axis" aria-hidden="true"></span>
+
+            <article class="timeline-item" data-exp-card>
+              <span class="timeline-node" aria-hidden="true"></span>
+              <div class="exp-when">
+                <span class="timeline-date">2026 — Present</span>
+                <span class="exp-current"><span class="exp-dot"></span> Current</span>
+              </div>
+              <div class="timeline-body">
+                <h3 class="exp-title">Junior Software Engineer</h3>
+                <p class="exp-company">Direktorat Teknologi Informasi Universitas Andalas (DTI UNAND)</p>
+                <p class="exp-meta">
+                  <span class="exp-type">Internship</span>
+                  <span class="exp-dot-sep" aria-hidden="true">·</span>
+                  <time datetime="2026-04">Apr 2026 — Present</time>
+                  <span class="exp-dot-sep" aria-hidden="true">·</span>
+                  Padang, West Sumatra, Indonesia · Hybrid
+                </p>
+                <p class="exp-desc">
+                  Contributing to the development and maintenance of internal digital
+                  systems at Universitas Andalas — building web applications, improving
+                  existing features, and collaborating with development teams to deliver
+                  reliable, user-focused solutions.
+                </p>
+              </div>
+            </article>
+
+            <article class="timeline-item" data-exp-card>
+              <span class="timeline-node" aria-hidden="true"></span>
+              <div class="exp-when">
+                <span class="timeline-date">2026</span>
+              </div>
+              <div class="timeline-body">
+                <h3 class="exp-title">Full Stack Developer</h3>
+                <p class="exp-company">Pemerintah Provinsi Sumatera Barat</p>
+                <p class="exp-meta">
+                  <span class="exp-type">Internship</span>
+                  <span class="exp-dot-sep" aria-hidden="true">·</span>
+                  <time datetime="2026-01">Jan 2026 — Feb 2026</time>
+                  <span class="exp-dot-sep" aria-hidden="true">·</span>
+                  Padang, West Sumatra, Indonesia · On-site
+                </p>
+                <p class="exp-desc">
+                  Led the development of the PRADATA system, a web-based platform built to
+                  streamline organizational data management and administrative workflows —
+                  delivering a more efficient, structured digital process.
+                </p>
+              </div>
+            </article>
+
+            <article class="timeline-item" data-exp-card>
+              <span class="timeline-node" aria-hidden="true"></span>
+              <div class="exp-when">
+                <span class="timeline-date">2025</span>
+              </div>
+              <div class="timeline-body">
+                <h3 class="exp-title">Data Management &amp; Automation Intern</h3>
+                <p class="exp-company">Infranexia</p>
+                <p class="exp-meta">
+                  <span class="exp-type">Internship</span>
+                  <span class="exp-dot-sep" aria-hidden="true">·</span>
+                  <time datetime="2025-08">Aug 2025 — Oct 2025</time>
+                  <span class="exp-dot-sep" aria-hidden="true">·</span>
+                  Padang, West Sumatra, Indonesia · On-site
+                </p>
+                <p class="exp-desc">
+                  Supported the ASO unit in operational data management, customer issue
+                  tracking, and business process automation — developing Google Apps Script
+                  solutions that improved reporting efficiency and daily operational workflows.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ───────────────────────── PROJECTS ───────────────────────── -->
+      <section class="section" id="projects" aria-labelledby="projects-title">
+        <div class="container content-view">
+          <div class="section-heading" data-reveal>
+            <p class="section-kicker"><span>02</span> Featured Projects</p>
+            <h2 id="projects-title">Selected work shaped with clarity &amp; energy.</h2>
+          </div>
+          <div class="project-grid">
+            <article class="project-card project-card-large" data-reveal data-tilt style="--accent: var(--lime)">
+              <span class="project-index" aria-hidden="true">01</span>
+              <div class="project-body">
+                <p class="project-type">Web System</p>
+                <h3>Academic Web Platform</h3>
+                <p>
+                  A structured web application concept for managing data flows, clear
+                  pages, and responsive user journeys.
+                </p>
+                <div class="badge-row">
+                  <span>HTML</span><span>CSS</span><span>JavaScript</span><span>MySQL</span>
+                </div>
+              </div>
+              <span class="project-cue" aria-hidden="true"><i data-lucide="arrow-up-right"></i></span>
+            </article>
+
+            <article class="project-card" data-reveal data-tilt style="--accent: var(--violet)">
+              <span class="project-index" aria-hidden="true">02</span>
+              <div class="project-body">
+                <p class="project-type">Identity</p>
+                <h3>Personal Portfolio System</h3>
+                <p>A bold personal website direction with strong hierarchy and playful motion.</p>
+                <div class="badge-row">
+                  <span>Brand</span><span>UI</span><span>Motion</span>
+                </div>
+              </div>
+              <span class="project-cue" aria-hidden="true"><i data-lucide="arrow-up-right"></i></span>
+            </article>
+
+            <article class="project-card" data-reveal data-tilt style="--accent: var(--coral)">
+              <span class="project-index" aria-hidden="true">03</span>
+              <div class="project-body">
+                <p class="project-type">Prototype</p>
+                <h3>Campus Collaboration Dashboard</h3>
+                <p>A focused interface concept for tasks, roles, milestones, and team coordination.</p>
+                <div class="badge-row">
+                  <span>Figma</span><span>UX</span><span>Responsive</span>
+                </div>
+              </div>
+              <span class="project-cue" aria-hidden="true"><i data-lucide="arrow-up-right"></i></span>
+            </article>
+
+            <article class="project-card project-card-wide" data-reveal data-tilt style="--accent: var(--cyan)">
+              <span class="project-index" aria-hidden="true">04</span>
+              <div class="project-body">
+                <p class="project-type">Product Build</p>
+                <h3>Clean Digital Product Prototype</h3>
+                <p>
+                  A practical product interface study focused on visual calm, accessible
+                  structure, and polished interaction feedback.
+                </p>
+                <div class="badge-row">
+                  <span>Design System</span><span>JavaScript</span><span>Git</span>
+                </div>
+              </div>
+              <span class="project-cue" aria-hidden="true"><i data-lucide="arrow-up-right"></i></span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ───────────────────────── SKILLS ───────────────────────── -->
+      <section class="section" id="skills" aria-labelledby="skills-title">
+        <div class="container content-view">
+          <div class="section-heading" data-reveal>
+            <p class="section-kicker"><span>03</span> Skills &amp; Tools</p>
+            <h2 id="skills-title">A loud, focused toolkit for building real things.</h2>
+          </div>
+          <div class="skills-layout">
+            <article class="skill-group" data-reveal style="--accent: var(--lime)">
+              <h3><i data-lucide="layout-panel-left" aria-hidden="true"></i> Frontend</h3>
+              <ul class="skill-meters">
+                <li class="skill-meter" data-level="90"><span class="skill-meter-top"><span>HTML</span><b>90</b></span><span class="meter-track"><span class="meter-fill"></span></span></li>
+                <li class="skill-meter" data-level="86"><span class="skill-meter-top"><span>CSS</span><b>86</b></span><span class="meter-track"><span class="meter-fill"></span></span></li>
+                <li class="skill-meter" data-level="80"><span class="skill-meter-top"><span>JavaScript</span><b>80</b></span><span class="meter-track"><span class="meter-fill"></span></span></li>
+                <li class="skill-meter" data-level="84"><span class="skill-meter-top"><span>Responsive UI</span><b>84</b></span><span class="meter-track"><span class="meter-fill"></span></span></li>
+              </ul>
+            </article>
+
+            <article class="skill-group" data-reveal style="--accent: var(--violet)">
+              <h3><i data-lucide="database" aria-hidden="true"></i> Systems</h3>
+              <ul class="skill-meters">
+                <li class="skill-meter" data-level="76"><span class="skill-meter-top"><span>PHP</span><b>76</b></span><span class="meter-track"><span class="meter-fill"></span></span></li>
+                <li class="skill-meter" data-level="78"><span class="skill-meter-top"><span>MySQL</span><b>78</b></span><span class="meter-track"><span class="meter-fill"></span></span></li>
+                <li class="skill-meter" data-level="82"><span class="skill-meter-top"><span>Git</span><b>82</b></span><span class="meter-track"><span class="meter-fill"></span></span></li>
+                <li class="skill-meter" data-level="80"><span class="skill-meter-top"><span>Documentation</span><b>80</b></span><span class="meter-track"><span class="meter-fill"></span></span></li>
+              </ul>
+            </article>
+
+            <article class="skill-group" data-reveal style="--accent: var(--coral)">
+              <h3><i data-lucide="pen-tool" aria-hidden="true"></i> Design</h3>
+              <ul class="skill-meters">
+                <li class="skill-meter" data-level="82"><span class="skill-meter-top"><span>Figma</span><b>82</b></span><span class="meter-track"><span class="meter-fill"></span></span></li>
+                <li class="skill-meter" data-level="80"><span class="skill-meter-top"><span>Visual Hierarchy</span><b>80</b></span><span class="meter-track"><span class="meter-fill"></span></span></li>
+                <li class="skill-meter" data-level="78"><span class="skill-meter-top"><span>Wireframing</span><b>78</b></span><span class="meter-track"><span class="meter-fill"></span></span></li>
+                <li class="skill-meter" data-level="75"><span class="skill-meter-top"><span>UX Thinking</span><b>75</b></span><span class="meter-track"><span class="meter-fill"></span></span></li>
+              </ul>
+            </article>
+          </div>
+
+          <div class="tech-stack" data-reveal aria-label="Tech stack">
+            <span class="tech-stack-label">// Toolbelt</span>
+            <div class="tech-chips">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span><span>PHP</span>
+              <span>MySQL</span><span>Git</span><span>Figma</span><span>Responsive</span>
+              <span>Motion</span><span>UX</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ───────────────────────── EDUCATION ───────────────────────── -->
+      <section class="section" id="education" aria-labelledby="education-title">
+        <div class="container content-view">
+          <div class="section-heading" data-reveal>
+            <p class="section-kicker"><span>04</span> Education</p>
+            <h2 id="education-title">Academic foundation, practical digital focus.</h2>
+          </div>
+          <div class="education-panel" data-reveal>
+            <div>
+              <p class="education-label">Undergraduate Study · Andalas University</p>
+              <h3>Information Systems &amp; Web Development Focus</h3>
+              <p>
+                Current learning path across web programming, databases, systems analysis,
+                interface design, and collaborative software projects.
+              </p>
+            </div>
+            <span class="education-year">Sem<br />06</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- ───────────────────────── CONTACT ───────────────────────── -->
+      <section class="section section-contact" id="contact" aria-labelledby="contact-title">
+        <div class="container contact-view">
+          <div class="contact-copy" data-reveal>
+            <p class="section-kicker dark"><span>05</span> Contact</p>
+            <h2 id="contact-title">Let's build<br />something real.</h2>
+            <p>
+              Open to internships, collaborations, and project conversations. Drop a
+              message — I usually reply fast.
+            </p>
+            <div class="contact-actions">
+              <a class="button button-contact" href="mailto:zakkyaulialdrin@gmail.com" data-magnetic>
+                <span>zakkyaulialdrin@gmail.com</span>
+                <i data-lucide="arrow-up-right" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="social-dock" data-reveal aria-label="Social links">
+            <a class="social-link" href="https://www.linkedin.com/in/zakkyaulia" target="_blank" rel="noreferrer" aria-label="LinkedIn" title="LinkedIn" data-magnetic>
+              <span class="social-icon">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M4.98 3.5a2.5 2.5 0 1 0 0 5.001 2.5 2.5 0 0 0 0-5Zm-2.1 6.73h4.2V21h-4.2V10.23Zm6.24 0h4.02v1.47h.06c.56-1.06 1.93-1.73 3.98-1.73 4.25 0 5.04 2.8 5.04 6.44V21h-4.19v-4.08c0-.97-.02-2.23-1.36-2.23-1.37 0-1.58 1.07-1.58 2.16V21H9.12V10.23Z" />
+                </svg>
+              </span>
+              <span class="social-name">LinkedIn</span>
+            </a>
+            <a class="social-link" href="https://github.com/Zakkyaulia" target="_blank" rel="noreferrer" aria-label="GitHub" title="GitHub" data-magnetic>
+              <span class="social-icon">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M12 .8C5.78.8.75 5.86.75 12.1c0 4.98 3.22 9.21 7.69 10.7.56.1.77-.24.77-.54v-1.9c-3.13.68-3.79-1.35-3.79-1.35-.51-1.31-1.25-1.66-1.25-1.66-1.02-.7.08-.69.08-.69 1.13.08 1.72 1.17 1.72 1.17 1 .1 2.63.82 3.24.63.1-.73.39-1.23.71-1.51-2.5-.28-5.13-1.25-5.13-5.58 0-1.23.44-2.24 1.16-3.03-.12-.29-.5-1.44.11-2.99 0 0 .95-.3 3.1 1.16.9-.25 1.86-.38 2.82-.38.96 0 1.92.13 2.82.38 2.15-1.46 3.1-1.16 3.1-1.16.61 1.55.23 2.7.11 2.99.72.79 1.16 1.8 1.16 3.03 0 4.34-2.64 5.29-5.15 5.57.4.35.76 1.04.76 2.1v3.12c0 .3.2.65.78.54A11.29 11.29 0 0 0 23.25 12.1C23.25 5.86 18.22.8 12 .8Z" />
+                </svg>
+              </span>
+              <span class="social-name">GitHub</span>
+            </a>
+            <a class="social-link" href="https://www.instagram.com/zakkyaulia__/" target="_blank" rel="noreferrer" aria-label="Instagram" title="Instagram" data-magnetic>
+              <span class="social-icon">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path fill="none" d="M7.2 2.9h9.6a4.3 4.3 0 0 1 4.3 4.3v9.6a4.3 4.3 0 0 1-4.3 4.3H7.2a4.3 4.3 0 0 1-4.3-4.3V7.2a4.3 4.3 0 0 1 4.3-4.3Z" />
+                  <path fill="none" d="M16.35 11.4A4.35 4.35 0 1 1 7.65 11.4a4.35 4.35 0 0 1 8.7 0Z" />
+                  <path d="M17.55 6.55a1.08 1.08 0 1 0 0 2.16 1.08 1.08 0 0 0 0-2.16Z" />
+                </svg>
+              </span>
+              <span class="social-name">Instagram</span>
+            </a>
+            <a class="social-link" data-whatsapp-link href="https://wa.me/6287869030753" target="_blank" rel="noreferrer" aria-label="WhatsApp" title="WhatsApp" data-magnetic>
+              <span class="social-icon">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M12.05 2.3a9.58 9.58 0 0 0-8.2 14.5L2.7 21.7l5.02-1.12A9.57 9.57 0 1 0 12.05 2.3Zm.01 2.06a7.5 7.5 0 0 1 6.43 11.34 7.48 7.48 0 0 1-9.85 2.63l-.35-.18-2.5.56.57-2.41-.2-.37a7.51 7.51 0 0 1 5.9-11.57Zm-2.44 3.7c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1s.9 2.44 1.03 2.61c.13.17 1.74 2.78 4.3 3.78 2.13.84 2.57.67 3.03.63.46-.04 1.49-.61 1.7-1.2.21-.59.21-1.1.15-1.2-.06-.1-.23-.17-.48-.3-.25-.13-1.49-.74-1.72-.82-.23-.08-.4-.13-.57.13-.17.25-.65.82-.8.99-.15.17-.29.19-.54.06-.25-.13-1.06-.39-2.02-1.25-.75-.67-1.25-1.49-1.4-1.74-.15-.25-.02-.39.11-.52.12-.12.25-.29.38-.44.13-.15.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.57-1.38-.78-1.89-.2-.49-.41-.42-.57-.43h-.49Z" />
+                </svg>
+              </span>
+              <span class="social-name">WhatsApp</span>
+            </a>
+          </div>
+        </div>
+
+        <footer class="site-footer">
+          <span>© <span id="year">2026</span> Zakky Aulia Aldrin</span>
+          <span>Built loud, with intent.</span>
+        </footer>
+      </section>
+    </main>
+
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+    <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js" defer></script>
+    <script src="script.js" defer></script>
+  </body>
+</html>
