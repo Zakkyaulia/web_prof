@@ -1,14 +1,70 @@
-# IDE / Editor folders
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+.pnp.*
+
+# Next.js build & cache
+.next/
+out/
+build/
+dist/
+.turbo/
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Environment variables (never commit secrets)
+.env
+.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+!.env.example
+
+# Vercel
+.vercel/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# IDE, Editor & AI Assistants
 .vscode/
 .idea/
+.claude/
+.cursor/
+.windsurf/
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+*.sublime-project
+*.sublime-workspace
 
-# OS generated files
+# Sensitive keys and certificates
+*.pem
+*.key
+*.cert
+
+# Operating System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
 Thumbs.db
 ehthumbs.db
+ehthumbs_vista.db
 Desktop.ini
-.DS_Store
+$RECYCLE.BIN/
