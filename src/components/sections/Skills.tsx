@@ -30,10 +30,6 @@ export async function Skills() {
         <Reveal className="skills-marquee-reveal">
           <SkillsMarquee items={skills} />
         </Reveal>
-
-        <Reveal>
-          <p className="skills-note">{dict.skills.note}</p>
-        </Reveal>
       </div>
     </section>
   );

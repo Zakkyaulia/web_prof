@@ -128,7 +128,6 @@ export const id: Dictionary = {
   skills: {
     kicker: "Skill & Alat",
     title: "Perangkat yang tegas dan fokus untuk membangun hal nyata.",
-    note: "// Teknologi yang pernah saya gunakan. Lingkup pengalaman, bukan penilaian kemahiran.",
   },
   education: {
     kicker: "Pendidikan",

@@ -130,7 +130,6 @@ export const en = {
   skills: {
     kicker: "Skills & Tools",
     title: "A loud, focused toolkit for building real things.",
-    note: "// Technologies I have used. A scope of experience, not a proficiency rating.",
   },
   education: {
     kicker: "Education",
