@@ -37,6 +37,11 @@ export const experience: ExperienceEntry[] = [
       en: "Led the development of PRADATA, a web-based platform for organizational data management and administrative workflows.",
       id: "Memimpin pengembangan PRADATA, platform berbasis web untuk pengelolaan data organisasi dan alur kerja administrasi.",
     },
+    certificate: {
+      file: "/certificate/Sertifikat Magang Gubernur Zakky.pdf",
+      preview: "/certificate/preview.webp",
+      issuedLabel: "Pemerintah Provinsi Sumatera Barat",
+    },
   },
   {
     id: "infranexia",
@@ -56,6 +61,11 @@ export const experience: ExperienceEntry[] = [
     summary: {
       en: "Supported operational data management and customer issue tracking, and helped identify workflow improvements, using Google Apps Script to automate reporting and day-to-day processes.",
       id: "Mendukung pengelolaan data operasional dan pelacakan keluhan pelanggan, serta membantu mengidentifikasi perbaikan alur kerja, dengan memanfaatkan Google Apps Script untuk mengotomasi pelaporan dan proses harian.",
+    },
+    certificate: {
+      file: "/certificate/Sertifikat Magang Gubernur Zakky.pdf",
+      preview: "/certificate/preview.webp",
+      issuedLabel: "Infranexia",
     },
   },
 ];

@@ -22,11 +22,11 @@ export const id: Dictionary = {
   },
   nav: {
     about: "Tentang",
-    experience: "Kerja",
+    experience: "Pengalaman",
     projects: "Proyek",
-    skills: "Skill",
-    education: "Studi",
-    cta: "Let's Connect",
+    skills: "Skills",
+    education: "Pendidikan",
+    cta: "Kontak",
   },
   hero: {
     eyebrow: "Sistem Informasi · Universitas Andalas",
@@ -53,6 +53,12 @@ export const id: Dictionary = {
     lead: "Perjalanan di rekayasa perangkat lunak, pengembangan full-stack, dan otomasi, membangun solusi digital praktis di lingkungan akademik, pemerintahan, dan industri.",
     current: "Saat ini",
     present: "Sekarang",
+    viewCertificate: "Lihat sertifikat",
+    openPdf: "Lihat sertifikat",
+    downloadPdf: "Unduh PDF",
+    closeModal: "Tutup",
+    certificateCompletion: "Sertifikat penyelesaian magang",
+    certificatePreviewAlt: "Pratinjau sertifikat",
     types: {
       internship: "Magang",
       "full-time": "Penuh waktu",
@@ -126,7 +132,7 @@ export const id: Dictionary = {
     },
   },
   skills: {
-    kicker: "Skill & Alat",
+    kicker: "Skills",
     title: "Perangkat yang tegas dan fokus untuk membangun hal nyata.",
   },
   education: {

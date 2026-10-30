@@ -24,11 +24,11 @@ export const en = {
   },
   nav: {
     about: "About",
-    experience: "Work",
+    experience: "Experience",
     projects: "Projects",
     skills: "Skills",
-    education: "Edu",
-    cta: "Let's Connect",
+    education: "Education",
+    cta: "Contact",
   },
   hero: {
     eyebrow: "Information Systems · Andalas University",
@@ -55,6 +55,12 @@ export const en = {
     lead: "A journey through software engineering, full-stack development, and automation, building practical digital solutions across academia, government, and industry.",
     current: "Current",
     present: "Present",
+    viewCertificate: "View certificate",
+    openPdf: "View certificate",
+    downloadPdf: "Download PDF",
+    closeModal: "Close",
+    certificateCompletion: "Certificate of internship completion",
+    certificatePreviewAlt: "Certificate preview",
     types: {
       internship: "Internship",
       "full-time": "Full-time",
@@ -128,7 +134,7 @@ export const en = {
     },
   },
   skills: {
-    kicker: "Skills & Tools",
+    kicker: "Skills",
     title: "A loud, focused toolkit for building real things.",
   },
   education: {

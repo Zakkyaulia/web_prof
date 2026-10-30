@@ -8,6 +8,12 @@ export interface SocialLink {
   href: string;
 }
 
+export interface ExperienceCertificate {
+  file: string;
+  preview: string;
+  issuedLabel?: string;
+}
+
 export interface ExperienceEntry {
   id: string;
   role: L10n;
@@ -21,6 +27,7 @@ export interface ExperienceEntry {
   period: L10n;
   location: L10n;
   summary: L10n;
+  certificate?: ExperienceCertificate;
 }
 
 export interface EducationEntry {
